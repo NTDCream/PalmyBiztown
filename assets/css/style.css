@@ -12,13 +12,13 @@
 }
 
 :root {
-    /* Colors – Dark Luxury Palette */
-    --color-bg: #0a0a0f;
-    --color-bg-alt: #111118;
-    --color-surface: #1a1a24;
-    --color-surface-hover: #222230;
-    --color-border: rgba(255, 255, 255, 0.08);
-    --color-border-gold: rgba(197, 165, 114, 0.3);
+    /* Colors – Navy Blue Luxury Palette */
+    --color-bg: #0b1d3a;
+    --color-bg-alt: #091832;
+    --color-surface: #0f2544;
+    --color-surface-hover: #142d50;
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-border-gold: rgba(197, 165, 114, 0.35);
 
     --color-gold: #c5a572;
     --color-gold-light: #d4b88a;
@@ -26,8 +26,8 @@
     --color-gold-gradient: linear-gradient(135deg, #c5a572, #e8d5b5, #c5a572);
 
     --color-text: #ffffff;
-    --color-text-secondary: rgba(255, 255, 255, 0.7);
-    --color-text-muted: rgba(255, 255, 255, 0.45);
+    --color-text-secondary: rgba(255, 255, 255, 0.75);
+    --color-text-muted: rgba(255, 255, 255, 0.5);
 
     /* Typography */
     --font-heading: 'Playfair Display', 'Georgia', serif;
@@ -184,7 +184,7 @@ ul, ol {
 
 .btn--primary {
     background: var(--color-gold-gradient);
-    color: #0a0a0f;
+    color: #0b1d3a;
 }
 
 .btn--primary::before {
@@ -240,7 +240,7 @@ ul, ol {
 }
 
 .header.scrolled {
-    background: rgba(10, 10, 15, 0.92);
+    background: rgba(11, 29, 58, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     padding: 10px 0;
@@ -285,7 +285,7 @@ ul, ol {
 
 .header__link--cta {
     background: var(--color-gold-gradient);
-    color: #0a0a0f !important;
+    color: #0b1d3a !important;
     font-weight: 600;
 }
 
@@ -357,10 +357,10 @@ ul, ol {
     inset: 0;
     background: linear-gradient(
         to bottom,
-        rgba(10, 10, 15, 0.5) 0%,
-        rgba(10, 10, 15, 0.3) 40%,
-        rgba(10, 10, 15, 0.6) 70%,
-        rgba(10, 10, 15, 0.95) 100%
+        rgba(11, 29, 58, 0.55) 0%,
+        rgba(11, 29, 58, 0.35) 40%,
+        rgba(11, 29, 58, 0.65) 70%,
+        rgba(11, 29, 58, 0.97) 100%
     );
     z-index: 1;
 }
@@ -594,7 +594,7 @@ ul, ol {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background: rgba(10, 10, 15, 0.85);
+    background: rgba(11, 29, 58, 0.88);
     backdrop-filter: blur(15px);
     padding: 16px 24px;
     border-radius: var(--radius-md);
@@ -818,7 +818,7 @@ ul, ol {
 .amenities__card-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(10, 10, 15, 0.9) 0%, rgba(10, 10, 15, 0.2) 60%, transparent 100%);
+    background: linear-gradient(to top, rgba(9, 24, 50, 0.92) 0%, rgba(9, 24, 50, 0.25) 60%, transparent 100%);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -827,7 +827,7 @@ ul, ol {
 }
 
 .amenities__card:hover .amenities__card-overlay {
-    background: linear-gradient(to top, rgba(10, 10, 15, 0.95) 0%, rgba(10, 10, 15, 0.4) 60%, rgba(10, 10, 15, 0.1) 100%);
+    background: linear-gradient(to top, rgba(9, 24, 50, 0.97) 0%, rgba(9, 24, 50, 0.45) 60%, rgba(9, 24, 50, 0.15) 100%);
 }
 
 .amenities__card-number {
@@ -890,7 +890,7 @@ ul, ol {
 
 .masterplan__tab--active {
     background: var(--color-gold-gradient);
-    color: #0a0a0f;
+    color: #0b1d3a;
     border-color: transparent;
     font-weight: 600;
 }
@@ -956,7 +956,7 @@ ul, ol {
 .gallery__item-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(10, 10, 15, 0.5);
+    background: rgba(11, 29, 58, 0.55);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1001,7 +1001,7 @@ ul, ol {
 .contact__overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(10, 10, 15, 0.92), rgba(10, 10, 15, 0.85));
+    background: linear-gradient(135deg, rgba(11, 29, 58, 0.94), rgba(9, 24, 50, 0.88));
 }
 
 .contact__inner {
@@ -1047,7 +1047,7 @@ ul, ol {
 }
 
 .contact__form-wrapper {
-    background: rgba(26, 26, 36, 0.75);
+    background: rgba(15, 37, 68, 0.8);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: var(--radius-lg);
@@ -1160,7 +1160,7 @@ ul, ol {
 
 .footer__social a:hover {
     background: var(--color-gold);
-    color: #0a0a0f;
+    color: #0b1d3a;
     border-color: var(--color-gold);
     transform: translateY(-3px);
 }
@@ -1330,7 +1330,7 @@ ul, ol {
     background: var(--color-gold);
     border: none;
     border-radius: 50%;
-    color: #0a0a0f;
+    color: #0b1d3a;
     font-size: 1rem;
     cursor: pointer;
     z-index: 999;
@@ -1529,7 +1529,7 @@ ul, ol {
         width: 80%;
         max-width: 320px;
         height: 100vh;
-        background: rgba(10, 10, 15, 0.98);
+        background: rgba(9, 24, 50, 0.98);
         backdrop-filter: blur(20px);
         padding: 80px 30px 40px;
         transition: right var(--transition-base);
